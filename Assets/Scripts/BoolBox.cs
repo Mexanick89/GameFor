@@ -44,27 +44,27 @@ public class BoolBox : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Color_Blue"))
         {
-            Invoke("MiniStart", 0.03f);
+            Invoke("MiniStart", 0.05f);
         }
 
         if (collision.gameObject.CompareTag("Color_Green"))
         {
-            Invoke("MiniStart", 0.03f);
+            Invoke("MiniStart", 0.05f);
         }
 
         if (collision.gameObject.CompareTag("Color_Orange"))
         {
-            Invoke("MiniStart", 0.03f);
+            Invoke("MiniStart", 0.05f);
         }
 
         if (collision.gameObject.CompareTag("Color_Red"))
         {
-            Invoke("MiniStart", 0.03f);
+            Invoke("MiniStart", 0.05f);
         }
 
         if (collision.gameObject.CompareTag("Color_Purple"))
         {
-            Invoke("MiniStart", 0.03f);
+            Invoke("MiniStart", 0.05f);
         }
     }
 

@@ -4498,6 +4498,12 @@ MonoBehaviour:
   - {fileID: 1791411359}
   - {fileID: 1276028711}
   - {fileID: 1587900602}
+  bomb_blue: 0
+  bomb_green: 0
+  bomb_orange: 0
+  bomb_red: 0
+  bomb_purple: 0
+  MainCheckMuve: 0
 --- !u!4 &2081440463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2180170556753409427, guid: 1f51bd61cfbd40e49a3941e288162cb4, type: 3}

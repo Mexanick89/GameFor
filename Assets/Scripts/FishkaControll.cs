@@ -51,8 +51,11 @@ public class FishkaControll : MonoBehaviour
     Vector3 Point0504 = new Vector2(8f, 2f);
     Vector3 Point0505 = new Vector2(8f, 0f);
 
+    public bool TargetMuve = false;
+
     private void Start()
     {
+        TargetMuve = false;
         GameMainPoints = GameObject.Find("MainPoints");
         scriptLineBox = GameMainPoints.GetComponent<LineBox>();
     }
@@ -126,40 +129,49 @@ public class FishkaControll : MonoBehaviour
     {
             if (Vector3.Distance(transform.position, Point0100) == 0.0f)
             {
-                if (scriptLineBox.point0101 == true)
+            if (scriptLineBox.point0101 == true)
                 {
+                TargetMuve = true;
                 Move0101();
                 }
             }
 
             if (Vector3.Distance(transform.position, Point0101) <= 0.10f)
             {
-                if (scriptLineBox.point0102 == true)
+            TargetMuve = false;
+            if (scriptLineBox.point0102 == true)
                 {
+                TargetMuve = true;
                 Move0102();
                 }
             }
 
             if (Vector3.Distance(transform.position, Point0102) <= 0.10f)
             {
-                if (scriptLineBox.point0103 == true)
+            TargetMuve = false;
+            if (scriptLineBox.point0103 == true)
                 {
+                TargetMuve = true;
                 Move0103();
                 }
             }
 
             if (Vector3.Distance(transform.position, Point0103) <= 0.10f)
             {
-                if (scriptLineBox.point0104 == true)
+            TargetMuve = false;
+            if (scriptLineBox.point0104 == true)
                 {
+                TargetMuve = true;
                 Move0104();
                 }
             }
 
             if (Vector3.Distance(transform.position, Point0104) <= 0.10f)
             {
-                if (scriptLineBox.point0105 == true)
+            TargetMuve = false;
+            if (scriptLineBox.point0105 == true)
                 {
+                TargetMuve = true;
                 Move0105();
                 }
             }
@@ -227,38 +239,47 @@ public class FishkaControll : MonoBehaviour
         {
             if (scriptLineBox.point0201 == true)
             {
+                TargetMuve = true;
                 Move0201();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0201) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0202 == true)
             {
+                TargetMuve = true;
                 Move0202();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0202) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0203 == true)
             {
+                TargetMuve = true;
                 Move0203();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0203) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0204 == true)
             {
+                TargetMuve = true;
                 Move0204();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0204) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0205 == true)
             {
+                TargetMuve = true;
                 Move0205();
             }
         }
@@ -326,38 +347,47 @@ public class FishkaControll : MonoBehaviour
         {
             if (scriptLineBox.point0301 == true)
             {
+                TargetMuve = true;
                 Move0301();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0301) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0302 == true)
             {
+                TargetMuve = true;
                 Move0302();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0302) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0303 == true)
             {
+                TargetMuve = true;
                 Move0303();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0303) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0304 == true)
             {
+                TargetMuve = true;
                 Move0304();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0304) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0305 == true)
             {
+                TargetMuve = true;
                 Move0305();
             }
         }
@@ -425,38 +455,47 @@ public class FishkaControll : MonoBehaviour
         {
             if (scriptLineBox.point0401 == true)
             {
+                TargetMuve = true;
                 Move0401();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0401) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0402 == true)
             {
+                TargetMuve = true;
                 Move0402();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0402) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0403 == true)
             {
+                TargetMuve = true;
                 Move0403();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0403) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0404 == true)
             {
+                TargetMuve = true;
                 Move0404();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0404) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0405 == true)
             {
+                TargetMuve = true;
                 Move0405();
             }
         }
@@ -524,38 +563,47 @@ public class FishkaControll : MonoBehaviour
         {
             if (scriptLineBox.point0501 == true)
             {
+                TargetMuve = true;
                 Move0501();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0501) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0502 == true)
             {
+                TargetMuve = true;
                 Move0502();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0502) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0503 == true)
             {
+                TargetMuve = true;
                 Move0503();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0503) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0504 == true)
             {
+                TargetMuve = true;
                 Move0504();
             }
         }
 
         if (Vector3.Distance(transform.position, Point0504) <= 0.10f)
         {
+            TargetMuve = false;
             if (scriptLineBox.point0505 == true)
             {
+                TargetMuve = true;
                 Move0505();
             }
         }

@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LineBox : MonoBehaviour
-{
 
+{
 
     public bool point0101 = false;
     public bool point0102 = false;
@@ -70,6 +70,7 @@ public class LineBox : MonoBehaviour
 
 
     private void Start()
+
     {
 
         BoolBoxPoint0101 = GameObject.Find("0101");
@@ -132,11 +133,11 @@ public class LineBox : MonoBehaviour
         scriptBoolBox = BoolBoxPoint0504.GetComponent<BoolBox>();
         scriptBoolBox = BoolBoxPoint0505.GetComponent<BoolBox>();
 
-
-
     }
 
+
     private void FixedUpdate()
+
     {
 
         point0101 = BoolBoxPoint0101.GetComponent<BoolBox>().MainCheck;

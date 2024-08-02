@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -14,11 +15,12 @@ public class Test2 : MonoBehaviour
 
 
 
-
     void Start()
     {
         objectName = this.gameObject.name;
     }
+
+
 
     private void OnTriggerEnter2D(Collider2D colisions)
     {
